@@ -5,6 +5,7 @@ The paper titled "**Convolution Transformer Mixer for Hyperspectral Image Classi
 
 ## Pytorch
 Torch: 1.7.0
+
 Python: 3.7.3
  
 ## Model
