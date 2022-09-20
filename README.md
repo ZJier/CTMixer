@@ -21,7 +21,7 @@ Encoder Layer: 1
 
 Attention Header: 4
 
-Optimizer: Adam
+Optimizer: Adam (weight_decay=1e-4)
 
 Scheduler: CosineAnnealingLR
 
