@@ -95,7 +95,7 @@ class Res(nn.Module):
 
 class CTMixer(nn.Module):
 
-    def __init__(self, channels, num_classes, image_size, datasetname, num_layers, num_heads, 
+    def __init__(self, channels, num_classes, image_size, datasetname, num_layers: int=1, num_heads: int=4, 
                  patch_size: int = 1, emb_dim: int = 128, head_dim = 64, hidden_dim: int = 64, pool: str = "mean"):
         super().__init__()
         self.emb_dim = emb_dim
